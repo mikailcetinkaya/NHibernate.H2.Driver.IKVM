@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Mikail Çetinkaya</Authors>
+    <Company>We are the new guardians</Company>
+    <Description>Nhibernate H2 driver compatible with .NET 5.0 by using IKVM</Description>
+    <Copyright>2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mikailcetinkaya/NHibernate.H2.Driver.IKVM</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/mikailcetinkaya/NHibernate.H2.Driver.IKVM</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>Nhibernate H2 driver compatible with .NET 5.0 IKVM</PackageTags>
+    <PackageReleaseNotes>Nhibernate H2 driver compatible with .NET 5.0 by using IKVM</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0.4</Version>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="H2SharpADO.NET50" Version="1.0.3" />
+    <PackageReference Include="NHibernate" Version="5.3.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
