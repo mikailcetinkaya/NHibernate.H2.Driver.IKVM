@@ -15,13 +15,13 @@
     <PackageTags>Nhibernate H2 driver compatible with .NET 5.0 IKVM</PackageTags>
     <PackageReleaseNotes>Nhibernate H2 driver compatible with .NET 5.0 by using IKVM</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0.9</Version>
-    <AssemblyVersion>1.0.0.9</AssemblyVersion>
-    <FileVersion>1.0.0.9</FileVersion>
+    <Version>1.0.1.0</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="H2SharpADO.NET50" Version="1.0.4.1" />
+    <PackageReference Include="H2SharpADO.NET50" Version="1.1.0" />
     <PackageReference Include="NHibernate" Version="5.3.10" />
   </ItemGroup>
 
